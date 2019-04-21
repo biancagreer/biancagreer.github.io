@@ -31,10 +31,10 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url('https://lh3.googleusercontent.com/mAiLVjHf8bmalUi_hpRB7o7o8M9bX_A27NxIqQpv5XIOhqn6vu0Ft12VaNKRgDJRHC15FVWG6PMpFsn-iOcifkNl6gUHN-4jECEg_Yb_txYzsp-Jgx4X95zq-YQ01Fr3l_z1rM4MFvhkUtDbpidR6ZMaPCBJcwlR9FM6j66kQwat-1WlxVUmmZ-sRGtvNENZU8mhO5NfdOwlqvGq2ZM5a39eefsVuzirm729bPt2DiFHzCnhK0VgOEIue3CTsOyvvy0QaI_oY9BSYuM3rZfkSsrBgNmgrpvgSyUmCwocPPDkU44gqmsDHePV4koUXBa8Ph3s1ehPq8zUepckh7bbDRo0DilUibmOncczUr9BT_D7mgibvjV-qFrZSxPNaTVKfj4FeJAYwdWGQJn8sL3eTBAAIOPRfoJ4qcRFYBDLw7D0Pl6mTCotIr9Ikd3Ea8CE78t4j3TZQAoJMu6zzQUjMHufCmmlBBaCWFFgRr0YAjJfTPMT3iQHDgo7d8Dina2eQ2aIoW42oV12ryQsvfmqkYuVdDYszIb8X5tW_HNTucg-uZvhQbdiB1wJ3bjf9ncd6QQVVuWiAj_GbNwHpSQY8D0DTd1H5lmxCaz-970MsI34qonCXi0N2_DQF2vAxl4gT4gyg0sXHWx-VMv4DZZl3lsBquU0ocw=w651-h867-no');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 1500px; width: 500px
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
