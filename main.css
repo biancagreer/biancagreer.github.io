@@ -1,4 +1,3 @@
-
 html, body {
   min-height: 100%;
   display: flex;
@@ -8,8 +7,8 @@ html, body {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  font-family: 'Garamond', sans-serif; font-weight: 500;
+  background-image: url('https://lh3.googleusercontent.com/TRhTrF2KtQ1iO1t4pwELW0REW-8nli-GJ4j8sJBseG7sV5onET4OuMRRvkUnZWl5sAelTnK0ztg8Krv5ATkiUUKzZAGLPXS3mXXOwlcYxbGVw61NFiqtOVkOeYIkF1llwqxRKjQ6mp9H4Saa4CZ6ieBqtpcbrJMb90JrD-_wcDaTWDfDQtmrz5o_74aEa3ejrMP1dExAuyZMf_W3d7625x031rmiWcGZy_qqMFDbljVTmEil-_v8VxrTNxVbTvWLfjEOR6-WJNyqilZJW9vF7M0cXkWKhROXYRhir0tWYXFR3vGeHONspE1HA_GCoRekZ_lWeISuQRqFyw7Cg9OPxK-MMh9Hvkd7VlBH62WYX35CQYInlGO2TguOn-7Hsi-GFZZVYhcr7h6oBwcWWxWqtoWLo0xpCDQpcP0YVMlgim7U4JgQicLpBzL8nT4LXbq0disH6WDLOTPGQjXjD4p89rlcknmTnugKTCqDJ0mTFZaE9_pPP0cXLFr3B2euTZlZ3RZfHtSgmgjxzS7jVPWIZvdW_ImTVg1XNiXztWWx-FK6sJHKEiAsO2Km4CgE50s0qibxPiknJv0cfTyDXyfobRmLtsfjf8zxACEJcSI9Xgq6MfgRRxwaQYeDWEv-KtlcwOMexTqPjGM9dS5DqXmcHZOKMgeKTIY=w1157-h867-no');
   background-position: center top;
   background-size: cover;
   margin: 0;
@@ -17,30 +16,35 @@ body {
 
 .page-title {
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .page-heading {
   text-align: center;
-  font-weight: 400;
+  font-weight: 400; font-family: 'Garamond', sans-serif
 }
 
 .page-description {
-  border: 1px solid #000;
+  border: 5px solid #FFE4E1;
   text-align: center;
-  padding: 15px;
+  padding: 10px; font-family: 'Garamond', sans-serif
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.page-heading1 {
+  text-align: center;
+  font-weight: 500; font-family: Georgia, serif
 }
 
 .gallery-item {
   margin: 20px;
-  border: 5px solid #FFF;
+  border: 5px solid #FFF; background-size:cover
 }
 
 .gallery-item .thumbnail {
