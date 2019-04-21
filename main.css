@@ -127,3 +127,12 @@ nav a {
   color: #ffffff;
   background-color: #fbd1d5;
 }
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
