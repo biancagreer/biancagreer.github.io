@@ -1,3 +1,4 @@
+
 html, body {
   min-height: 100%;
   display: flex;
@@ -16,7 +17,7 @@ body {
 
 .page-title {
   text-align: center;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .page-heading {
@@ -33,10 +34,21 @@ body {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 10px;
+  margin-top: 10px; justify-content: center;
 }
 
+.jumbotron h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff; font-family: 'Garamond', sans-serif;  font-size: 20px;
+  font-weight: 500
+}
 .page-heading1 {
   text-align: center;
   font-weight: 500; font-family: Georgia, serif
@@ -44,7 +56,7 @@ body {
 
 .gallery-item {
   margin: 20px;
-  border: 5px solid #FFF; background-size:cover
+  border: 5px dotted #FFE4E1; background-size:cover; 
 }
 
 .gallery-item .thumbnail {
@@ -80,7 +92,7 @@ nav ul {
 
 .contact-btn a:active {
   position: relative;
-  bottom: 4px;
+  bottom: 10px;
 }
 
 nav a {
@@ -90,3 +102,28 @@ nav a {
   text-decoration: none;
 }
 
+.btn.btn-secondary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-secondary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #FF69B4;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
