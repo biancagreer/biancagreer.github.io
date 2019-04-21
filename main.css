@@ -1,131 +1,53 @@
-
-html, body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+body {
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  line-height: 1.5;
 }
 
-body {
-  font-family: 'Garamond', sans-serif; font-weight: 500;
-  background-image: url('https://lh3.googleusercontent.com/TRhTrF2KtQ1iO1t4pwELW0REW-8nli-GJ4j8sJBseG7sV5onET4OuMRRvkUnZWl5sAelTnK0ztg8Krv5ATkiUUKzZAGLPXS3mXXOwlcYxbGVw61NFiqtOVkOeYIkF1llwqxRKjQ6mp9H4Saa4CZ6ieBqtpcbrJMb90JrD-_wcDaTWDfDQtmrz5o_74aEa3ejrMP1dExAuyZMf_W3d7625x031rmiWcGZy_qqMFDbljVTmEil-_v8VxrTNxVbTvWLfjEOR6-WJNyqilZJW9vF7M0cXkWKhROXYRhir0tWYXFR3vGeHONspE1HA_GCoRekZ_lWeISuQRqFyw7Cg9OPxK-MMh9Hvkd7VlBH62WYX35CQYInlGO2TguOn-7Hsi-GFZZVYhcr7h6oBwcWWxWqtoWLo0xpCDQpcP0YVMlgim7U4JgQicLpBzL8nT4LXbq0disH6WDLOTPGQjXjD4p89rlcknmTnugKTCqDJ0mTFZaE9_pPP0cXLFr3B2euTZlZ3RZfHtSgmgjxzS7jVPWIZvdW_ImTVg1XNiXztWWx-FK6sJHKEiAsO2Km4CgE50s0qibxPiknJv0cfTyDXyfobRmLtsfjf8zxACEJcSI9Xgq6MfgRRxwaQYeDWEv-KtlcwOMexTqPjGM9dS5DqXmcHZOKMgeKTIY=w1157-h867-no');
-  background-position: center top;
-  background-size: cover;
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
   margin: 0;
 }
 
-.page-title {
-  text-align: center;
-  font-weight: 600;
-}
-
-.page-heading {
-  text-align: center;
-  font-weight: 400; font-family: 'Garamond', sans-serif
-}
-
-.page-description {
-  border: 5px solid #FFE4E1;
-  text-align: center;
-  padding: 10px; font-family: 'Garamond', sans-serif
-}
-
-.gallery {
+header nav {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 10px; justify-content: center;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron h2 {
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 60px;
+  font-weight: 700;
   margin: 0;
   color: #fff;
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff; font-family: 'Garamond', sans-serif;  font-size: 20px;
-  font-weight: 500
-}
-.page-heading1 {
-  text-align: center;
-  font-weight: 500; font-family: Georgia, serif
-}
-
-.gallery-item {
-  margin: 20px;
-  border: 5px dotted #FFE4E1; background-size:cover; 
-}
-
-.gallery-item .thumbnail {
-
-}
-
-/* FOOTER NAVIGATION */
-
-nav {
-  background-color: #FFF;
-}
-
-nav li {
-  margin: 0;
-  padding: 0 10px;
-  display: inline;
-}
-
-nav ul {
-  display: inline;
-}
-
-.contact-btn {
-  float: right;
-}
-
-.contact-btn a {
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-
-}
-
-.contact-btn a:active {
-  position: relative;
-  bottom: 10px;
-}
-
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
-}
-
-.btn.btn-secondary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-.btn.btn-secondary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #FF69B4;
-}
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
+  color: #fff;
 }
 
 section .row img {
@@ -135,4 +57,42 @@ section .row img {
 
 .col-md-6 {
   margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }
